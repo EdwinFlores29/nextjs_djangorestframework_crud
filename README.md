@@ -16,7 +16,6 @@ DATABASES = {
         'PASSWORD': 'dariohakuna2#',
         'HOST': 'localhost',
         'PORT': '',
-
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
         },
@@ -24,6 +23,7 @@ DATABASES = {
 }
 
 RECUERDA: tener estos archivos descargados y instalados en tu PC windows: 👇👇
+
 https://inatecni-my.sharepoint.com/:u:/g/personal/ci_adan_chamorro_tecnacional_edu_ni/Edt2rOitjaxEhijdz8IExdoBYvYLrwebxNuBWP0qFuRIpA?e=Cy4MvF
 
 ![image](https://github.com/user-attachments/assets/6cdcda79-66c6-4495-a592-0efb3185d86f)
