@@ -1,5 +1,8 @@
 Requisitos para la conexion de django para SQL Server 2022
 pip install django djangorestframework mssql-django
+y tener el protocolo TCP/IP, habilitado en Configuración de SQL Server 2022: 👇👇
+![image](https://github.com/user-attachments/assets/6dbb4134-c065-46a0-85ce-ef5a133381c5)
+
 
 además de agregar estas líneas el settings.py de un proyecto de carpeta raíz:👇👇👇👇
 
