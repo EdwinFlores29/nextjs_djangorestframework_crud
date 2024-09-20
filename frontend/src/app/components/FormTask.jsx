@@ -7,7 +7,7 @@ function FormTask(){
     const [description, setDescription] = useState('')
     const handleSubmit = async (e) => {
       e.preventDefault();
-      const res = await fetch (`${process.env.BACKEND_URL}/api/tasks`, {
+      const res = await fetch (`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/tasks`, {
           method: "POST",
           body: JSON.stringify({ title, description }),
           headers: {
